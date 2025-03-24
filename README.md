@@ -22,40 +22,7 @@ API: RESTful Web Services
 
 Build Tool: Maven
 
-Installation & Setup
-1. Clone the Repository
-sh
-Copy
-Edit
-git clone https://github.com/BHUPATHI-HUB/ProductManagement.git
-cd ProductManagementApp
-2. Configure Database
-Create a MySQL database named shopping_cart_db.
-
-Update database configurations in application.properties:
-
-properties
-Copy
-Edit
-spring.datasource.url=jdbc:mysql://localhost:3306/shopping_cart_db
-spring.datasource.username=root
-spring.datasource.password=yourpassword
-spring.jpa.hibernate.ddl-auto=update
-3. Run the Application
-Use the following command to start the Spring Boot application:
-
-sh
-Copy
-Edit
-mvn spring-boot:run
-API Endpoints
-Method	Endpoint	Description
-POST	/products	Add a new product
-GET	/products	Fetch all products
-GET	/products/{id}	Fetch a product by ID
-PUT	/products/{id}	Update product details
-DELETE	/products/{id}	Remove a product
-Future Enhancements
+Future Enhancements:
 🚀 Add a frontend UI for better user experience
 🚀 Implement authentication & authorization (JWT)
 🚀 Introduce cart functionality to manage orders
