@@ -1,4 +1,7 @@
-Shopping Cart Application 🛒
+**Shopping Cart Application 🛒**
+
+
+
 Overview
 This is a beginner-friendly Shopping Cart Application built using Spring Boot, Hibernate, and MySQL. It provides basic CRUD (Create, Read, Update, Delete) functionalities for managing products, enabling users to perform essential shopping cart operations seamlessly.
 
